@@ -1,9 +1,10 @@
 import './App.css'
+import config from './conf/config';
 
 function App() {
 
   // Accessing enviornment variable
-  console.log(import.meta.env.VITE_APPWRITE_URL);
+  console.log(config.appwriteUrl);
   return (
     <>
       <h1>A blog App</h1>
