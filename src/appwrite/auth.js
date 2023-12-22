@@ -54,7 +54,7 @@ export class AuthService{
             throw error;
         }
         return null;
-     }
+    }
 }
 
 const authService = new AuthService();
