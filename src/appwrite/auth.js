@@ -20,6 +20,8 @@ export class AuthService{
 
            if (userAccount) {
                 // calling login method if the user is successfully registered so that the user can login directly.
+                this.login({email, password});
+                // this will login the user if the user is successfully registered.
            } else {
             return userAccount;
            }
